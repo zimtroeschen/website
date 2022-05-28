@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title>Zim-P's Webpage</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="temp/include-html.min.js"></script>
+    </head>
+    
+    <body>
+        
+        <div data-include="temp/top.html"></div>
+
+        <div class="text">
+            <h2>How to find the voicebank you need</h2>
+            <p>This webpage is designed to easily download any KOI-m voicebank. To find a specific voicebank just right for your needs, you can describe features like language (Japanese, English...), voicebank type (CV, VCV...) or append name (Dark, Power...) to the "Quick Search"-tool. If you need further information on the voicebanks, just go through the descriptions attatched below.</p>
+            <p>If you are concerned some of the work you plan to do with her might be not appropiate to me, feel free to look up the <a href="https://docs.google.com/document/d/1jqQ206zUINUxtYHO5GBs2wqcR4fszmuPcW1TILlmnDY">Terms of Use</a> or simply <a href="contact.html">contact me</a>.</p>
+            <p>Have fun and don't forget to send me your amazing work!</p>
+        </div>
+        <div class="text">
+            <h2>Quick Search</h2>
+            <table>
+                <form action="voice.php" method="post">
+                    <input type="text" list="banks" name="vb" placeholder="Describe the bank...">
+                    <datalist id="banks">
+                        <option value="Japanese CV Outdated">
+                        <option value="Japanese CV -Dolly-">
+                        <option value="Japanese VCV Outdated">
+                        <option value="Japanese VCV -Dolly-">
+                        <option value="Japanese VCV -Natural-">
+                        <option value="Japanese VCV -Childish-">
+                        <option value="Japanese VCV -Dark-">
+                        <option value="Japanese VCV -Power-">
+                        <option value="Korean CV Outdated">
+                        <option value="Korean CVVC -Porcelain-">
+                        <option value="Russian CVC -Porcelain-">
+                        <option value="French CV -Porcelain-">
+                        <option value="French CVVC -Porcelain-">
+                        <option value="English/Multilingual CVVC -Bluemoon-">
+                        <option value="English VCCV -Porcelain-">
+                    </datalist>
+                    <input type=submit value=Search>
+                </form>
+            </table>
+        </div>
+        <div class="text">
+            <h2>Descriptions</h2>
+            <p>(This is mainly just copied from her <a href="http://utau.wikidot.com/utau:mari-kiiroibara">Utau Wikidot</a>.)</p>
+            <br>
+            
+            <h3>Outdated Voicebanks:</h3>
+            <br>
+            <p>Japanese CV Outdated:</p>
+            <p>Her first CV act has a soft voice and comes with an Oremo base oto, which isn't working very well. It's a normal Japanese CV Hiragana bank. As it's pretty old and bad so I wouldn't recommend using it anymore.</p>
+            <br>
+
+            <p>Japanese VCV Outdated:</p>
+            <p>This voicebank has a much clearer voice compared to her CV bank, but a pretty heavy accent too. It supports Hiragana and Romaji VCV and is otoed by Moresampler.</p>
+            <br>
+
+            <p>Korean CV Outdated:</p>
+            <p>This is a pretty old outdated Korean CV voicebank, basically just a Japanese CV voicebank with a few extra sounds. I wouldn't use it.</p>
+            <br>
+
+            <h3>Japanese Voicebanks:</h3>
+            <br>
+            <p>Japanese CV -Dolly-:</p>
+            <p>A multi-expression bank, which uses the same reclist as in the first act but with extra files. The two expressions are: Sobbing (S) and Howling (H). With the 820 recorded samples of her, Engrishing gets a little more easy. She uses both, Hiragana and Romanized filenames.</p>
+            <br>
+
+            <p>Japanese VCV -Dolly-:</p>
+            <p>A multi-expression bank, which uses the same reclist as in the first act but in two expressions. The two expressions are: Sobbing (S) and Howling (H), just like for the CV equivalent. She uses both, Hiragana and Romanized filenames as well.</p>
+            <br>
+
+            <p>Japanese VCV -Natural-:</p>
+            <p>Pentapitch Japanese VCV voicebank, which sounds very similar to my actual singing voice and is intended to do so. The recorded pitches are: B3, D4, F4, G#4, B4. She uses both, Hiragana and Romanized filenames.</p>
+            <br>
+
+            <p>Japanese VCV -Childish-:</p>
+            <p>Tripitch Japanese VCV voicebank, which is intended to sound rather cute and childish. I recorded this by raising my soft palate. The recorded pitches are: B3, F4, B4. She uses both, Hiragana and Romanized filenames.</p>
+            <br>
+
+            <p>Japanese VCV -Dark-:</p>
+            <p>Tetrapitch Japanese VCV voicebank, which is intended to sound voluminous, mature and deep - a little bit like an opera voice. The recorded pitches are: AB, C4, E4, A4. She uses both, Hiragana and Romanized filenames. I can only recommend using this bank.</p>
+            <br>
+
+            <p>Japanese VCV -Power-:</p>
+            <p>Tetrapitch Japanese VCV voicebank, which is intended to sound strong and powerful, but not voluminous, like the Dark append. C4 pitch is a bit buggy, so I usually don't include it.</p>
+            <br>
+
+            <h3>Korean Voicebanks:</h3>
+            <br>
+            <p>Korean CVVC -Porcelain-:</p>
+            <p>Features a custom short reclist to sing in Korean, which probably isn't the best because I have no idea how Korean works. Still it's super fast to record and oto with only around 100 sample in it. The bank used to be called CVC.</p>
+            <br>
+
+            <h3>Russian Voicebanks:</h3>
+            <br>
+            <p>Russian CVC -Porcelain-:</p>
+            <p>Features a usual CVC reclist to sing in Russian. This bank is recorded in a pretty natural singing voice, since it is intended to resemble my natural singing voice.</p>
+            <br>
+
+            <h3>French Voicebanks:</h3>
+            <br>
+            <p>French CV -Porcelain-:</p>
+            <p>Only a small bank I made in order to test out NiaoNIAO Synth, configured on both, UTAU and NiaoNIAO. Adds breaths and glottal steps, custom reclist. The bank features a natural recording voice, as I usually do for -Porcelain- banks. Some sounds are missing here and there, rather use the CVVC bank.</p>
+            <br>
+
+            <p>French CVVC -Porcelain-:</p>
+            <p>A clear natural type bank which is able to sing in French. It features a reclist and alias system I created myself which is intended to work similar to French spelling.</p>
+            <br>
+
+            <h3>English Voicebanks:</h3>
+            <br>
+            <p>English/Multilingual CVVC -Bluemoon-:</p>
+            <p>A multilingual voicebank with a soft and cute tone. It works with many different European languages such as English, French, German and more.</p>
+            <br>
+
+            <p>English VCCV -Porcelain-:</p>
+            <p>A monopitch English bank recorded with the original CZlist. Works with most of the English USTs and can sing in different genres.</p>
+        </div>
+        
+        <div data-include="temp/down.html"></div>
+        
+    </body>
+</html>
